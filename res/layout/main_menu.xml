@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+	
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Hello and Welcome to Pony Slayer!\nPonies travel from the left to the right of the universe.\nIf you slash through 5, you win.\nLet 3 go in a row and you lose.\nBeware: ponies get faster as the game progresses!"/>
+	
+    <Button android:id="@+id/start"
+        android:text="Play!"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLaunchButtonClick"/>
+    
+    <Button android:id="@+id/end"
+        android:text="Quit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onEndButtonClick"/>
+    
+</LinearLayout>
